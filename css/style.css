@@ -1,0 +1,153 @@
+body {
+  height: 100%;
+  background: #ddd;
+}
+
+/* JUMBOTRON */
+div.jumbotron{
+  background: url('/img/landscape.jpg') no-repeat;
+  color: #fff;
+  background-size: cover;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  margin: 0;
+  border-radius: 0;
+  margin-top: 66px;
+}
+
+
+/* NAVBAR */
+.navbar {
+  background-image: linear-gradient(to left, green, #333);
+}
+.navbar a {
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  color: #fff!important;
+  padding: 10px;
+
+}
+.navbar a:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20%;
+
+}
+
+
+/* CONTENT AND FOOTER */
+.content {
+  height: 100vh;
+  min-height: 100%;
+  margin-bottom: -80px;
+}
+.push,
+.footer {
+  height: 80px;
+}
+
+.footer {
+  background-image: linear-gradient(to left, green, #333);
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  color: #fff;
+  padding: 10px;
+}
+
+
+
+
+
+/* PAGE FORUM */
+.forum-post {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #f6f6f6;
+  margin-bottom: 20px;
+}
+.avatar {
+  float: left;
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+  min-width: 200px;
+}
+.avatar img {
+  width: 80px;
+  border-radius: 50%;
+}
+.post {
+  align-self: stretch;
+}
+.action-bar button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.action-bar button:hover {
+  background-color: #459748; /* Green */
+
+}
+ .new-post {
+   position: fixed;
+   right: 100px;
+   bottom: 100px;
+ }
+ .new-post button {
+  background-color: rgb(255, 0, 0); 
+  border: none;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+     
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+
+/* PAGE HOME */
+.home {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #f6f6f6;
+  margin-bottom: 20px;
+}
+
+/* personagens page */
+
+.personagens {
+  
+  margin-top: 20px;
+  padding: 20px;
+  
+  border-radius: 5px;
+  background: #f6f6f6;
+  margin-bottom: 20px;
+  
+}
+
+.card-deck {
+  margin-bottom: 20px;
+}
+.card.onPage {
+  cursor: pointer;
+}
+
+/* sobre */
+.sobre {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #f6f6f6;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,110 @@
+<div class="personagens">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card" id="main-card">
+        <img id="selected-img"
+          class="card-img-top"
+          src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title" id="name">Nome</h5>
+          <p class="card-text" id="status">Status</p>
+          <p class="card-text" id="gender">Genero</p>
+          <p class="card-text" id="species">Espécie</p>
+          <p class="card-text" id="origin">Origem</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-8 justify-content-center">
+      <div class="row">
+        <div class="card-deck">
+          <div class="card onPage" onclick="getId(this)">
+            <img
+              class="card-img-top"
+              src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+              alt="Card image cap"
+            />
+            
+          </div>
+          <div class="card onPage" onclick="getId(this)">
+            <img
+              class="card-img-top"
+              src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+              alt="Card image cap"
+            />
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card-deck">
+           <div class="card onPage" onclick="getId(this)">
+            <img
+              class="card-img-top"
+              src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+              alt="Card image cap"
+            />
+           
+          </div>
+           <div class="card onPage" onclick="getId(this)">
+            <img
+              class="card-img-top"
+              src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+              alt="Card image cap"
+            />
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card-deck">
+           <div class="card onPage" onclick="getId(this)">
+            <img
+              class="card-img-top"
+              src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+              alt="Card image cap"
+            />
+           
+          </div>
+           <div class="card onPage" onclick="getId(this)">
+            <img
+              class="card-img-top"
+              src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+              alt="Card image cap"
+            />
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+
+    </div>
+    <div class="col-md-8">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li id="previous" class="page-item disabled">
+            <a class="page-link" onclick="navigate(this)"  href="#main-card" tabindex="-1">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" onclick="navigate(this)" href="#main-card">1</a></li>
+          <li class="page-item"><a class="page-link" onclick="navigate(this)" href="#main-card">2</a></li>
+          <li class="page-item"><a class="page-link" onclick="navigate(this)" href="#main-card">3</a></li>
+          <li class="page-item"><a class="page-link" onclick="navigate(this)" id="last-nav" href="#main-card">4</a></li>
+          <li class="page-item">
+            <a class="page-link" onclick="navigate(this)" href="#main-card">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  
+</div>
+
+<script src="js/personagens.js"></script>
